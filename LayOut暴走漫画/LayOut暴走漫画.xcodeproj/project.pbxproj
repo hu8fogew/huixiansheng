@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04251C1A1D3DB72B00981882 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04251C191D3DB72B00981882 /* main.m */; };
+		04251C1D1D3DB72B00981882 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04251C1C1D3DB72B00981882 /* AppDelegate.m */; };
+		04251C201D3DB72B00981882 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04251C1F1D3DB72B00981882 /* ViewController.m */; };
+		04251C231D3DB72B00981882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04251C211D3DB72B00981882 /* Main.storyboard */; };
+		04251C261D3DB72B00981882 /* LayOut____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04251C241D3DB72B00981882 /* LayOut____.xcdatamodeld */; };
+		04251C281D3DB72B00981882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04251C271D3DB72B00981882 /* Assets.xcassets */; };
+		04251C2B1D3DB72B00981882 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04251C291D3DB72B00981882 /* LaunchScreen.storyboard */; };
+		04251C361D3DB72B00981882 /* LayOut____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04251C351D3DB72B00981882 /* LayOut____Tests.m */; };
+		04251C411D3DB72B00981882 /* LayOut____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04251C401D3DB72B00981882 /* LayOut____UITests.m */; };
+		04251C531D3DB9AD00981882 /* Brad Cox.png in Resources */ = {isa = PBXBuildFile; fileRef = 04251C4F1D3DB9AD00981882 /* Brad Cox.png */; };
+		04251C541D3DB9AD00981882 /* Dennis Ritchie.png in Resources */ = {isa = PBXBuildFile; fileRef = 04251C501D3DB9AD00981882 /* Dennis Ritchie.png */; };
+		04251C551D3DB9AD00981882 /* Matthijs.png in Resources */ = {isa = PBXBuildFile; fileRef = 04251C511D3DB9AD00981882 /* Matthijs.png */; };
+		04251C561D3DB9AD00981882 /* Ray.png in Resources */ = {isa = PBXBuildFile; fileRef = 04251C521D3DB9AD00981882 /* Ray.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04251C321D3DB72B00981882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04251C0D1D3DB72B00981882 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04251C141D3DB72B00981882;
+			remoteInfo = "LayOut暴走漫画";
+		};
+		04251C3D1D3DB72B00981882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04251C0D1D3DB72B00981882 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04251C141D3DB72B00981882;
+			remoteInfo = "LayOut暴走漫画";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04251C151D3DB72B00981882 /* LayOut暴走漫画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LayOut暴走漫画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04251C191D3DB72B00981882 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04251C1B1D3DB72B00981882 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04251C1C1D3DB72B00981882 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04251C1E1D3DB72B00981882 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04251C1F1D3DB72B00981882 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04251C221D3DB72B00981882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04251C251D3DB72B00981882 /* LayOut____.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "LayOut____.xcdatamodel"; sourceTree = "<group>"; };
+		04251C271D3DB72B00981882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04251C2A1D3DB72B00981882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04251C2C1D3DB72B00981882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04251C311D3DB72B00981882 /* LayOut暴走漫画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LayOut暴走漫画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04251C351D3DB72B00981882 /* LayOut____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LayOut____Tests.m"; sourceTree = "<group>"; };
+		04251C371D3DB72B00981882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04251C3C1D3DB72B00981882 /* LayOut暴走漫画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LayOut暴走漫画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04251C401D3DB72B00981882 /* LayOut____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LayOut____UITests.m"; sourceTree = "<group>"; };
+		04251C421D3DB72B00981882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04251C4F1D3DB9AD00981882 /* Brad Cox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brad Cox.png"; sourceTree = "<group>"; };
+		04251C501D3DB9AD00981882 /* Dennis Ritchie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dennis Ritchie.png"; sourceTree = "<group>"; };
+		04251C511D3DB9AD00981882 /* Matthijs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Matthijs.png; sourceTree = "<group>"; };
+		04251C521D3DB9AD00981882 /* Ray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ray.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04251C121D3DB72B00981882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04251C2E1D3DB72B00981882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04251C391D3DB72B00981882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04251C0C1D3DB72B00981882 = {
+			isa = PBXGroup;
+			children = (
+				04251C171D3DB72B00981882 /* LayOut暴走漫画 */,
+				04251C341D3DB72B00981882 /* LayOut暴走漫画Tests */,
+				04251C3F1D3DB72B00981882 /* LayOut暴走漫画UITests */,
+				04251C161D3DB72B00981882 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04251C161D3DB72B00981882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04251C151D3DB72B00981882 /* LayOut暴走漫画.app */,
+				04251C311D3DB72B00981882 /* LayOut暴走漫画Tests.xctest */,
+				04251C3C1D3DB72B00981882 /* LayOut暴走漫画UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04251C171D3DB72B00981882 /* LayOut暴走漫画 */ = {
+			isa = PBXGroup;
+			children = (
+				04251C4E1D3DB9AD00981882 /* headerImage */,
+				04251C1B1D3DB72B00981882 /* AppDelegate.h */,
+				04251C1C1D3DB72B00981882 /* AppDelegate.m */,
+				04251C1E1D3DB72B00981882 /* ViewController.h */,
+				04251C1F1D3DB72B00981882 /* ViewController.m */,
+				04251C211D3DB72B00981882 /* Main.storyboard */,
+				04251C271D3DB72B00981882 /* Assets.xcassets */,
+				04251C291D3DB72B00981882 /* LaunchScreen.storyboard */,
+				04251C2C1D3DB72B00981882 /* Info.plist */,
+				04251C241D3DB72B00981882 /* LayOut____.xcdatamodeld */,
+				04251C181D3DB72B00981882 /* Supporting Files */,
+			);
+			path = "LayOut暴走漫画";
+			sourceTree = "<group>";
+		};
+		04251C181D3DB72B00981882 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04251C191D3DB72B00981882 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04251C341D3DB72B00981882 /* LayOut暴走漫画Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04251C351D3DB72B00981882 /* LayOut____Tests.m */,
+				04251C371D3DB72B00981882 /* Info.plist */,
+			);
+			path = "LayOut暴走漫画Tests";
+			sourceTree = "<group>";
+		};
+		04251C3F1D3DB72B00981882 /* LayOut暴走漫画UITests */ = {
+			isa = PBXGroup;
+			children = (
+				04251C401D3DB72B00981882 /* LayOut____UITests.m */,
+				04251C421D3DB72B00981882 /* Info.plist */,
+			);
+			path = "LayOut暴走漫画UITests";
+			sourceTree = "<group>";
+		};
+		04251C4E1D3DB9AD00981882 /* headerImage */ = {
+			isa = PBXGroup;
+			children = (
+				04251C4F1D3DB9AD00981882 /* Brad Cox.png */,
+				04251C501D3DB9AD00981882 /* Dennis Ritchie.png */,
+				04251C511D3DB9AD00981882 /* Matthijs.png */,
+				04251C521D3DB9AD00981882 /* Ray.png */,
+			);
+			path = headerImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04251C141D3DB72B00981882 /* LayOut暴走漫画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04251C451D3DB72B00981882 /* Build configuration list for PBXNativeTarget "LayOut暴走漫画" */;
+			buildPhases = (
+				04251C111D3DB72B00981882 /* Sources */,
+				04251C121D3DB72B00981882 /* Frameworks */,
+				04251C131D3DB72B00981882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LayOut暴走漫画";
+			productName = "LayOut暴走漫画";
+			productReference = 04251C151D3DB72B00981882 /* LayOut暴走漫画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04251C301D3DB72B00981882 /* LayOut暴走漫画Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04251C481D3DB72B00981882 /* Build configuration list for PBXNativeTarget "LayOut暴走漫画Tests" */;
+			buildPhases = (
+				04251C2D1D3DB72B00981882 /* Sources */,
+				04251C2E1D3DB72B00981882 /* Frameworks */,
+				04251C2F1D3DB72B00981882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04251C331D3DB72B00981882 /* PBXTargetDependency */,
+			);
+			name = "LayOut暴走漫画Tests";
+			productName = "LayOut暴走漫画Tests";
+			productReference = 04251C311D3DB72B00981882 /* LayOut暴走漫画Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04251C3B1D3DB72B00981882 /* LayOut暴走漫画UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04251C4B1D3DB72B00981882 /* Build configuration list for PBXNativeTarget "LayOut暴走漫画UITests" */;
+			buildPhases = (
+				04251C381D3DB72B00981882 /* Sources */,
+				04251C391D3DB72B00981882 /* Frameworks */,
+				04251C3A1D3DB72B00981882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04251C3E1D3DB72B00981882 /* PBXTargetDependency */,
+			);
+			name = "LayOut暴走漫画UITests";
+			productName = "LayOut暴走漫画UITests";
+			productReference = 04251C3C1D3DB72B00981882 /* LayOut暴走漫画UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04251C0D1D3DB72B00981882 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "haha😄";
+				TargetAttributes = {
+					04251C141D3DB72B00981882 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = HBJJYQU85V;
+					};
+					04251C301D3DB72B00981882 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = HBJJYQU85V;
+						TestTargetID = 04251C141D3DB72B00981882;
+					};
+					04251C3B1D3DB72B00981882 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = HBJJYQU85V;
+						TestTargetID = 04251C141D3DB72B00981882;
+					};
+				};
+			};
+			buildConfigurationList = 04251C101D3DB72B00981882 /* Build configuration list for PBXProject "LayOut暴走漫画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04251C0C1D3DB72B00981882;
+			productRefGroup = 04251C161D3DB72B00981882 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04251C141D3DB72B00981882 /* LayOut暴走漫画 */,
+				04251C301D3DB72B00981882 /* LayOut暴走漫画Tests */,
+				04251C3B1D3DB72B00981882 /* LayOut暴走漫画UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04251C131D3DB72B00981882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04251C2B1D3DB72B00981882 /* LaunchScreen.storyboard in Resources */,
+				04251C551D3DB9AD00981882 /* Matthijs.png in Resources */,
+				04251C281D3DB72B00981882 /* Assets.xcassets in Resources */,
+				04251C531D3DB9AD00981882 /* Brad Cox.png in Resources */,
+				04251C231D3DB72B00981882 /* Main.storyboard in Resources */,
+				04251C561D3DB9AD00981882 /* Ray.png in Resources */,
+				04251C541D3DB9AD00981882 /* Dennis Ritchie.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04251C2F1D3DB72B00981882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04251C3A1D3DB72B00981882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04251C111D3DB72B00981882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04251C201D3DB72B00981882 /* ViewController.m in Sources */,
+				04251C261D3DB72B00981882 /* LayOut____.xcdatamodeld in Sources */,
+				04251C1D1D3DB72B00981882 /* AppDelegate.m in Sources */,
+				04251C1A1D3DB72B00981882 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04251C2D1D3DB72B00981882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04251C361D3DB72B00981882 /* LayOut____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04251C381D3DB72B00981882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04251C411D3DB72B00981882 /* LayOut____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04251C331D3DB72B00981882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04251C141D3DB72B00981882 /* LayOut暴走漫画 */;
+			targetProxy = 04251C321D3DB72B00981882 /* PBXContainerItemProxy */;
+		};
+		04251C3E1D3DB72B00981882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04251C141D3DB72B00981882 /* LayOut暴走漫画 */;
+			targetProxy = 04251C3D1D3DB72B00981882 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04251C211D3DB72B00981882 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04251C221D3DB72B00981882 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04251C291D3DB72B00981882 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04251C2A1D3DB72B00981882 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04251C431D3DB72B00981882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04251C441D3DB72B00981882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04251C461D3DB72B00981882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LayOut暴走漫画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.qq.com.LayOut----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04251C471D3DB72B00981882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LayOut暴走漫画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.qq.com.LayOut----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04251C491D3DB72B00981882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "LayOut暴走漫画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.qq.com.LayOut----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LayOut暴走漫画.app/LayOut暴走漫画";
+			};
+			name = Debug;
+		};
+		04251C4A1D3DB72B00981882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "LayOut暴走漫画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.qq.com.LayOut----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LayOut暴走漫画.app/LayOut暴走漫画";
+			};
+			name = Release;
+		};
+		04251C4C1D3DB72B00981882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LayOut暴走漫画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.qq.com.LayOut----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LayOut暴走漫画";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		04251C4D1D3DB72B00981882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LayOut暴走漫画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.qq.com.LayOut----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LayOut暴走漫画";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04251C101D3DB72B00981882 /* Build configuration list for PBXProject "LayOut暴走漫画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04251C431D3DB72B00981882 /* Debug */,
+				04251C441D3DB72B00981882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04251C451D3DB72B00981882 /* Build configuration list for PBXNativeTarget "LayOut暴走漫画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04251C461D3DB72B00981882 /* Debug */,
+				04251C471D3DB72B00981882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04251C481D3DB72B00981882 /* Build configuration list for PBXNativeTarget "LayOut暴走漫画Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04251C491D3DB72B00981882 /* Debug */,
+				04251C4A1D3DB72B00981882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04251C4B1D3DB72B00981882 /* Build configuration list for PBXNativeTarget "LayOut暴走漫画UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04251C4C1D3DB72B00981882 /* Debug */,
+				04251C4D1D3DB72B00981882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04251C241D3DB72B00981882 /* LayOut____.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04251C251D3DB72B00981882 /* LayOut____.xcdatamodel */,
+			);
+			currentVersion = 04251C251D3DB72B00981882 /* LayOut____.xcdatamodel */;
+			path = "LayOut____.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04251C0D1D3DB72B00981882 /* Project object */;
+}
